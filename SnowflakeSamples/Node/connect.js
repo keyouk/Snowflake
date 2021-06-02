@@ -2,7 +2,6 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const snowflake = require('snowflake-sdk');
-const PORT = 3002;
 
 snowflake.configure({ logLevel: 'trace' });
 

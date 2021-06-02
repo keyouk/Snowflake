@@ -1,6 +1,4 @@
-require('dotenv').config();
-const express = require('express');
-const app = express();
+
 const snowflake = require('snowflake-sdk');
 
 snowflake.configure({ logLevel: 'trace' });
